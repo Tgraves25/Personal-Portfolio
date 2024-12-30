@@ -1,0 +1,71 @@
+/* Navbar */
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  #navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  #navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive media query */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  /* Welcome section */
+  #welcome-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+  }
+  
+  .welcome-image {
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  
+  /* Projects section */
+  #projects {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  .project-tile {
+    display: inline-block;
+    width: 300px;
+    margin: 15px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-tile a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .project-tile:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
