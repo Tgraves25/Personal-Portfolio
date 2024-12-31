@@ -1,9 +1,12 @@
+<!--Programmer: Trevone Graves-->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="Portfolio.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <title>Personal Portfolio</title>
   </head>
   <body>
@@ -11,6 +14,8 @@
     <div id="navbar">
       <a href="#welcome-section">Welcome</a>
       <a href="#projects">Projects</a>
+      <a href="#repositories">Repositories</a>
+      <a href="#contacts">Contact</a>
       <a id="profile-link" href="https://github.com/your-profile" target="_blank">GitHub Profile</a>
     </div>
 
@@ -18,23 +23,87 @@
     <section id="welcome-section">
       <h1>Hello, my name is Trevone Graves!</h1>
       <h2>A graduating senior studying Business Computer Information Systems</h2>
+      <h2>Explore my projects, discover my skills, and see how I bring ideas to life with clean, user-focused designs.</h2>
+      <h2>Let's create something amazing together!</h2>
       <img class="welcome-image" src="https://media.licdn.com/dms/image/D4E03AQE9G4qr0nGCew/profile-displayphoto-shrink_200_200/0/1700555739604?e=2147483647&v=beta&t=mNrBp55oUxPx4KuJEiwXG1w8cLJbtz-78YFbuhpSEJA" alt="picture of Trevone Graves">
     </section>
+
+    <hr>
 
      <!-- Projects Section -->
     <section id="projects">
       <h1>Here are some of my projects!</h1>
+      <h3>Click them to be view the projects!</h3>
       <div class="project-tile">
-        <a href="https://example.com/project1" target="_blank">
-          <h3>Project 1</h3>
-          <p>A brief description of the project.</p>
+        <a href="https://tgraves25.github.io/Ecommerce-website/" target="_blank">
+          <h3>E-commerce Website</h3>
+          <img class="project-img1" src="project-image1.png" alt="Cookware Hub Photo">
+          <p>The Cookware Hub is a sleek and responsive e-commerce website designed to showcase and sell premium kitchenware. 
+            It features a modern and intuitive layout with a navigation bar that allows easy browsing of products and access to contact information. 
+            The product showcase section highlights various cookware items with detailed images, prices, and descriptions.
+          </p>
         </a>
       </div>
       <div class="project-tile">
-        <a href="https://example.com/project2" target="_blank">
-          <h3>Project 2</h3>
-          <p>A brief description of the project.</p>
+        <a href="https://tgraves25.github.io/Weather-App/" target="_blank">
+          <h3>ClimaSense Weather App</h3>
+          <img class="project-img1" src="weatherapp1.png" alt="Weather App Photo">
+          <p>
+            ClimaSense is a sleek, user-friendly weather forecasting app that lets users check the current weather by entering 
+            their city and state. Built with responsive design, it works seamlessly on all devices. 
+            Using data from the National Weather Service, 
+            ClimaSense delivers accurate and real-time weather updates, making it the perfect tool for staying informed on the go.
+          </p>
         </a>
+      </div>
+    </section>
+
+<hr>
+
+    <section id="repositories">
+      <h1>Here are the repositories to my projects!</h1>
+      <h2>Click to be taken to them!</h2>
+      <div class="repository-title">
+        <a href="https://github.com/Tgraves25/Ecommerce-website" target="_blank">
+          <h3>E-commerce Website</h3>
+          <p>
+            This is the repository for my E-commerce frontend development project. 
+            In it, you will be able to see the code and images used to create the project. 
+            I provided the README file which explains the project in detail and provides a preview which 
+            you have seen in the projects section. Feel free to check it out! 
+          </p>
+        </a>
+      </div>
+      <div class="repository-title">
+        <a href="https://github.com/Tgraves25/Weather-App" target="_blank">
+          <h3>ClimaSense Website</h3>
+          <p>
+            This is the repository for my frontend development project for a weather app called ClimaSense.
+            In it, you will be able to see the code and images used to create the project. 
+            I provided the README file which explains the project in detail and provides a preview which 
+            you have seen in the projects section. Feel free to check it out! 
+          </p>
+        </a>
+      </div>
+    </section>
+
+<hr>
+
+    <section id="contacts">
+      <h1>Feel free to Contact Me!</h1>
+      <div id="contact-me">
+        <!-- LinkedIn Button -->
+        <button class="contact">
+          <a href="https://www.linkedin.com/in/trevone-graves-8071b6279" target="_blank">
+              <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+        </button>
+        <!-- Email Button -->
+        <button class="contact">
+          <a href="mailto:trevone.graves03@gmail.com">
+              <i class="fas fa-envelope"></i> Trevone.Graves@Gmail.com
+          </a>
+       </button>
       </div>
     </section>
   </body>
